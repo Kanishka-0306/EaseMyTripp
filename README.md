@@ -47,75 +47,59 @@ The application also provides an administrative dashboard to manage flight detai
 
 The landing page provides the flight search interface and booking options.
 
-![Home Page](Screenshots/index.png)
+![Home Page](index.png)
 
-![Home Page](Screenshots/index%20%282%29.png)
+![Home Page](index%20%282%29.png)
 
 ### 2. Flight Search and Booking
 
 Users can enter their travel details and search for available flights.
 
-![Flight Search](Screenshots/flight.png)
+![Flight Search](flight.png)
 
-![Flight Booking](Screenshots/booking.png)
+![Flight Booking](booking.png)
 
 ### 3. User Authentication
 
 User registration and login interfaces.
 
-![User Login](Screenshots/userlog.png)
+![User Login](userlog.png)
 
-![User Registration](Screenshots/usersig.png)
+![User Registration](usersig.png)
 
 ### 4. Admin Authentication
 
-Admin login interface.
-
-![Admin Login](Screenshots/adlog.png)
+![Admin Login](adlog.png)
 
 ### 5. Admin Dashboard
 
-The dashboard provides an overview of administrative and revenue-related information.
-
-![Admin Dashboard](Screenshots/ad%20dash.png)
+![Admin Dashboard](ad%20dash.png)
 
 ### 6. User Management
 
-Displays registered user information for administrative management.
-
-![User Management](Screenshots/use.png)
+![User Management](use.png)
 
 ### 7. Flight Management – CRUD Operations
 
-Allows the administrator to create, read, update, and delete flight records.
-
-![Flight Management](Screenshots/crud.png)
+![Flight Management](crud.png)
 
 ### 8. Booking Details
 
-Displays relevant booking information.
-
-![Booking Details](Screenshots/det.png)
+![Booking Details](det.png)
 
 ### 9. Payment and Bill Generation
 
-Demonstrates the simulated payment process and generated booking bill.
+![Payment Page](pay.png)
 
-![Payment Page](Screenshots/pay.png)
-
-![Generated Bill](Screenshots/bill.png)
+![Generated Bill](bill.png)
 
 ### 10. Database Management
 
-MongoDB collection views used for storing and managing application data.
+![Database Collections](collect.png)
 
-![Database Collections](Screenshots/collect.png)
-
-![Collection Details](Screenshots/coll.png)
+![Collection Details](coll.png)
 
 ## ⚙️ Installation and Setup
-
-Follow these steps to run the project locally.
 
 ### 1. Clone the Repository
 
