@@ -18,6 +18,8 @@ The application also provides an administrative dashboard to manage flight detai
 | ODM | Mongoose |
 | Tools | Visual Studio Code, MongoDB Compass, Git, GitHub |
 
+Live Demonstration : https://kanishka-0306.github.io/EaseMyTripp/
+
 ## ✨ Features
 
 ### 👤 User Module
