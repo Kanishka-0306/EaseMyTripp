@@ -1,6 +1,6 @@
 # ✈️ EaseMyTrip – Flight Booking Web Application
 
-A full-stack flight booking web application inspired by EaseMyTrip, developed to provide users with a convenient and seamless flight booking experience. The application includes flight search, user authentication, booking functionality, simulated payment processing, and an admin dashboard.
+A full-stack flight booking web application inspired by EaseMyTrip, developed to provide users with a convenient flight booking experience. The application includes flight search, user authentication, booking functionality, simulated payment processing, and an admin dashboard.
 
 ## 📌 About the Project
 
@@ -43,77 +43,75 @@ The application also provides an administrative dashboard to manage flight detai
 
 ## 📸 Project Screenshots
 
-Explore the different modules and interfaces of the application.
-
 ### 1. Home Page
 
 The landing page provides the flight search interface and booking options.
 
-![Home Page](https://github.com/Kanishka-0306/EaseMyTripp/raw/main/Screenshots/index.png)
+![Home Page](Screenshots/index.png)
 
-![Home Page](https://github.com/Kanishka-0306/EaseMyTripp/raw/main/Screenshots/index%20%282%29.png)
+![Home Page](Screenshots/index%20%282%29.png)
 
 ### 2. Flight Search and Booking
 
 Users can enter their travel details and search for available flights.
 
-![Flight Search](https://github.com/Kanishka-0306/EaseMyTripp/raw/main/Screenshots/flight.png)
+![Flight Search](Screenshots/flight.png)
 
-![Flight Booking](https://github.com/Kanishka-0306/EaseMyTripp/raw/main/Screenshots/booking.png)
+![Flight Booking](Screenshots/booking.png)
 
 ### 3. User Authentication
 
 User registration and login interfaces.
 
-![User Login](https://github.com/Kanishka-0306/EaseMyTripp/raw/main/Screenshots/userlog.png)
+![User Login](Screenshots/userlog.png)
 
-![User Registration](https://github.com/Kanishka-0306/EaseMyTripp/raw/main/Screenshots/usersig.png)
+![User Registration](Screenshots/usersig.png)
 
 ### 4. Admin Authentication
 
-Secure login interface for accessing the admin panel.
+Admin login interface.
 
-![Admin Login](https://github.com/Kanishka-0306/EaseMyTripp/raw/main/Screenshots/adlog.png)
+![Admin Login](Screenshots/adlog.png)
 
 ### 5. Admin Dashboard
 
 The dashboard provides an overview of administrative and revenue-related information.
 
-![Admin Dashboard](https://github.com/Kanishka-0306/EaseMyTripp/raw/main/Screenshots/ad%20dash.png)
+![Admin Dashboard](Screenshots/ad%20dash.png)
 
 ### 6. User Management
 
 Displays registered user information for administrative management.
 
-![User Management](https://github.com/Kanishka-0306/EaseMyTripp/raw/main/Screenshots/use.png)
+![User Management](Screenshots/use.png)
 
 ### 7. Flight Management – CRUD Operations
 
 Allows the administrator to create, read, update, and delete flight records.
 
-![Flight Management](https://github.com/Kanishka-0306/EaseMyTripp/raw/main/Screenshots/crud.png)
+![Flight Management](Screenshots/crud.png)
 
 ### 8. Booking Details
 
 Displays relevant booking information.
 
-![Booking Details](https://github.com/Kanishka-0306/EaseMyTripp/raw/main/Screenshots/det.png)
+![Booking Details](Screenshots/det.png)
 
 ### 9. Payment and Bill Generation
 
 Demonstrates the simulated payment process and generated booking bill.
 
-![Payment Page](https://github.com/Kanishka-0306/EaseMyTripp/raw/main/Screenshots/pay.png)
+![Payment Page](Screenshots/pay.png)
 
-![Generated Bill](https://github.com/Kanishka-0306/EaseMyTripp/raw/main/Screenshots/bill.png)
+![Generated Bill](Screenshots/bill.png)
 
 ### 10. Database Management
 
 MongoDB collection views used for storing and managing application data.
 
-![Database Collections](https://github.com/Kanishka-0306/EaseMyTripp/raw/main/Screenshots/collect.png)
+![Database Collections](Screenshots/collect.png)
 
-![Collection Details](https://github.com/Kanishka-0306/EaseMyTripp/raw/main/Screenshots/coll.png)
+![Collection Details](Screenshots/coll.png)
 
 ## ⚙️ Installation and Setup
 
@@ -148,8 +146,6 @@ node index.js
 ```
 
 ### 6. Open in Browser
-
-Visit the following URL:
 
 ```text
 http://localhost:5005
