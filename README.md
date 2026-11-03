@@ -47,7 +47,7 @@ The application also provides an administrative dashboard to manage flight detai
 
 The landing page provides the flight search interface and booking options.
 
-![Home Page](index.png)
+
 
 ![Home Page](index%20%282%29.png)
 
