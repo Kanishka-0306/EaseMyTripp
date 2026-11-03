@@ -1,102 +1,190 @@
-# EaseMyTrip-clone
+# ✈️ EaseMyTrip – Flight Booking Web Application
 
-This is a clone of EaseMyTrip.com
+A full-stack flight booking web application inspired by EaseMyTrip, developed to provide users with a simple and convenient flight booking experience. The application includes flight search, user authentication, booking functionality, simulated payment processing, and an admin dashboard.
 
-It is a trip booking website and we have tried to clone its **Flight Search** fuctionality.
+## 📌 About the Project
 
-We have use **HTML**, **CSS**, **JavaScript**, **Express**, **MongoDB**, and **Mongoose** in this project.
+EaseMyTrip is a flight booking web application that allows users to search for flights based on their travel preferences, view available flights, and complete a simulated booking process.
 
-Our project is not resposive but fit to all desktop and laptop screen.
+The application also provides an administrative dashboard to manage flight details, registered users, and booking-related information.
 
+## 🛠️ Technologies Used
 
-## Index.html
+| Category | Technologies |
+|---|---|
+| Frontend | HTML5, CSS3, JavaScript |
+| Backend | Node.js, Express.js |
+| Database | MongoDB |
+| ODM | Mongoose |
+| Development Tools | VS Code, MongoDB Compass, Git, GitHub |
 
-**Index.html** is our entry point.
-We have tried to make our home page exact similar to the original one.
+## ✨ Features
 
-![index](https://user-images.githubusercontent.com/80845888/138563116-d0210686-f147-4e44-b481-1e235716b2bf.png)
+### 👤 User Features
+- User registration and login
+- Search flights by source and destination
+- Select travel date and travel class
+- Choose the number of adults and infants
+- View available flights
+- Apply discount coupon codes
+- Simulated payment process
+- Generate booking bills
 
-- On the home page user can register and login at the same time if comming on the page first time.
-for that he or she has to enter his or her login id.
+### 🔐 Admin Features
+- Admin login
+- View registered users
+- Add new flight details
+- Update existing flight information
+- Delete flight details
+- Manage flight records
+- View revenue dashboard
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/80845888/138562275-3f9c4cf8-09b2-4cda-8ca6-18a0ae849273.png" width="600" height="400"/>
-</p>
+## 📸 Project Screenshots
 
-- After entering the valid email id in the above page on clicking **continue** **password** popUp will appear.
+Explore the different modules and interfaces of the application.
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/80845888/138562865-69a51bd2-a9c1-40a3-a5f4-043e4b17412a.png" width="600" height="400"/>
-</p>
+### 1. Home Page
 
-- On the **Index** page their is a search bar to search flight.
+The landing page provides the flight search interface and booking options.
 
-![search](https://user-images.githubusercontent.com/80845888/138563351-e6ce4a6c-6b36-47a6-9511-7a6cc61c9d84.png)
+![Home Page](Screenshots/index.png)
 
-- In this search bar you can enter all the following detail, we have used **Debouncing** to minimize the API calls .
+![Home Page](Screenshots/index%20(2).png)
 
+### 2. Flight Search and Booking
 
-## flightSearch.html
+Users can enter their travel details and search for available flights.
 
-- On this page the result of the flight search will appear.
+![Flight Search](Screenshots/flight.png)
 
-![FlightSearch](https://user-images.githubusercontent.com/80845888/138563784-a5dabd58-8463-41c5-9ca0-ffb81198f460.png)
+![Flight Booking](Screenshots/booking.png)
 
-- For the above result we have created a small data base and built our own API routes.
+### 3. User Authentication
 
-- After getting the result user can click on the **BOOK NOW** button for booking  the particular flight.
+User registration and login interfaces.
 
-## bookflight.html
+![User Login](Screenshots/userlog.png)
 
-- After cliking on the **BOOK NOW** user will be redirected to the **bookflight.html** page where user can see the amount detail and can add gift vouchers to get the discount.
+![User Registration](Screenshots/usersig.png)
 
-![bookNow](https://user-images.githubusercontent.com/80845888/138564173-8311da01-4f9c-4292-8ad2-829eebc48daf.png)
+### 4. Admin Authentication
 
-- After validating the flight and amount detail user has to click on the **Continue Booking** button.
+Secure login interface for accessing the admin panel.
 
-## payment.html
+![Admin Login](Screenshots/adlog.png)
 
-- After clicking on the **Continue Booking** user will send to  the **payment.html** page to pay the amount.
+### 5. Admin Dashboard
 
-![payment](https://user-images.githubusercontent.com/80845888/138564388-ca933777-ab5c-41ea-8472-b4a6c7d24f12.png)
+The dashboard provides an overview of administrative and revenue-related information.
 
-- In this page user can choose any of the payment method and enter his valid account number and cvv to instigate payment gateway.
+![Admin Dashboard](Screenshots/ad%20dash.png)
 
-- We have created the setTimeOut funtion which will alert a popUp of sucessfull payment after 5 sec.
+### 6. User Management
 
+Displays registered user information for administrative management.
 
-So, that was the proper flow of our project.
+![User Management](Screenshots/use.png)
 
-## About dataBase
+### 7. Flight Management – CRUD Operations
 
-- We have used **mongoDb** for our project
-- Before running the project please import the **flightData.json** file in your mongoDb.
-- And replace line number 8 
-   **return mongoose.connect('mongodb://127.0.0.1:27017/easeMyTrip')** in the **server.js** 
-   with your local mongodb port address and the name of the dataBase were you have imported the flightData.json file.
-- Please keep range of the data in mind before searching it other wise sometime you may not get any result.
-> * Date from **2021-10-03** to **2021-10-08**
-> * City from **delhi** to **indore**
-- Their are some more data but please look in the json file before searching as the date and city combination should have to be exact match to get the result
-- Object formate of the date saved in the **flightData.json**.
->
-<p>
- {<br>
-    "id": 4,<br>
-    "airline_name": "Vistara",   <br> 
-    "aircraft_number": 3820,  <br>  
-    "takeoff_time": "10:33",    <br>
-    "landing_time": "12:29", <br>   
-    "journey_date": "2021-10-03",  <br>  
-    "source": "Delhi", <br>  
-    "destination": "Surat",  <br>  
-    "price": 4555,   <br> 
-    "aircraft_code": "NA"  <br>  
-}
-</p>
+Allows the administrator to create, read, update, and delete flight records.
 
+![Flight Management](Screenshots/crud.png)
 
+### 8. Booking Details
 
-## Thanks
+Displays relevant booking information.
 
+![Booking Details](Screenshots/det.png)
 
+### 9. Payment and Bill Generation
+
+Demonstrates the simulated payment process and generated booking bill.
+
+![Payment Page](Screenshots/pay.png)
+
+![Generated Bill](Screenshots/bill.png)
+
+### 10. Database Management
+
+MongoDB collection views used for storing and managing application data.
+
+![Database Collections](Screenshots/collect.png)
+
+![Collection Details](Screenshots/coll.png)
+
+## ⚙️ Installation and Setup
+
+Follow these steps to run the project locally.
+
+**Step 1: Clone the repository**
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_LINK
+```
+
+**Step 2: Navigate to the project directory**
+
+```bash
+cd EaseMyTrip-Final
+```
+
+**Step 3: Install dependencies**
+
+```bash
+npm install
+```
+
+**Step 4: Configure MongoDB**
+
+Ensure MongoDB is running and configure the database connection based on the project configuration.
+
+**Step 5: Start the application**
+
+```bash
+node index.js
+```
+
+**Step 6: Open the application**
+
+Visit the following URL in your browser:
+
+```text
+http://localhost:5005
+```
+
+## 📁 Project Structure
+
+```text
+EaseMyTrip-Final/
+│
+├── public/
+├── views/
+├── models/
+├── routes/
+├── index.js
+├── package.json
+├── package-lock.json
+├── Screenshots/
+└── README.md
+```
+
+*Note: This is an illustrative structure. Refer to the actual repository for the complete folder organization.*
+
+## 🎯 Learning Outcomes
+
+- Understanding full-stack web application development.
+- Implementing REST API functionality using Express.js.
+- Performing CRUD operations with MongoDB and Mongoose.
+- Connecting frontend interfaces with backend services.
+- Understanding user authentication and booking workflows.
+
+## 🚀 Future Enhancements
+
+- Responsive design for mobile and tablet devices.
+- Integration of a real payment gateway.
+- Improved flight booking and seat management functionality.
+
+---
+
+**Built with HTML, CSS, JavaScript, Node.js, Express.js, and MongoDB.**
